@@ -26,7 +26,7 @@
                 <div class="col-md-6 col-12">
                     <nav class="navbar navbar-light bg-light">
                         <div class="container-fluid">
-                            <a class="navbar-brand" href="#">Calculadora</a>
+                            <a class="navbar-brand" href="#">Calculadora de costos de desarrollo de WebApp</a>
                             <button
                                 class="navbar-toggler"
                                 type="button"
@@ -56,6 +56,11 @@
 
                         <div class="row mb-4 d-flex justify-content-center">
                             
+                            
+                        </div>
+
+                        <div class="row mb-4 d-flex justify-content-center">
+                            
                             <!-- Valor por hora -->
                             <div class="col-md-6">
                                 <div class="form-outline mb-4">
@@ -70,6 +75,11 @@
 
                         <div class="row mb-4 d-flex justify-content-center">
                             
+                            
+                        </div>
+
+                        <div class="row mb-4 d-flex justify-content-center">
+                            
                             <!-- Elemento 1: Diseño de interfaz -->
                             <div class="col-md-6">
                                 <div class="form-outline mb-4">
@@ -79,10 +89,7 @@
                                         de interfaz (horas)</label>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="row mb-4 d-flex justify-content-center">
-                           
                             <!-- Elemento 2: Desarrollo de estructura HTML  -->
                             <div class="col-md-6">
                                 <div class="form-outline mb-4">
@@ -92,6 +99,7 @@
                                         de estructura HTML (horas)</label>
                                 </div>
                             </div>
+
                         </div>
 
                         <div class="row mb-4 d-flex justify-content-center">
@@ -105,20 +113,56 @@
                                         con CSS (horas)</label>
                                 </div>
                             </div>  
-                        </div>
 
-                        <div class="row mb-4 d-flex justify-content-center">
-                            
                             <!-- Elemento 4: Desarrollo de lógica JS -->
                             <div class="col-md-6">
                                 <div class="form-outline mb-4">
                                     <input type="number" id="jsHoras"
-                                        step="0.25" required="required"
                                         class="form-control" />
-                                    <label class="form-label" for="valorPorHora">Desarrollo de lógica 
+                                    <label class="form-label" for="jsHoras">Desarrollo de lógica 
                                         JavaScript (horas)</label>
                                 </div>
                             </div>
+
+                        </div>
+
+
+                        <div class="row mb-4 d-flex justify-content-center">
+                            
+                            <!-- Elemento 5: Integración APIs -->
+                            <div class="col-md-6">
+                                <div class="form-outline mb-4">
+                                    <input type="number" id="apisHoras"
+                                        class="form-control" />
+                                    <label class="form-label" for="apisHoras">Integración con
+                                        APIs (horas)</label>
+                                </div>
+                            </div>
+
+                            <!-- Elemento 6: Funcionalidades adicionales -->
+                            <div class="col-md-6">
+                                <div class="form-outline mb-4">
+                                    <input type="number" id="adicionalesHoras"
+                                        class="form-control" />
+                                    <label class="form-label" for="adicionalesHoras">Funcionalidades 
+                                        adicionales (horas)</label>
+                                </div>
+                            </div>
+
+                            <!-- Elemento 7: Experiencia del desarrollador -->
+                            <div class="col-md-6">
+                                <div class="form-outline mb-4">
+                                    <label class="form-label" for="experiencia">Experiencia del 
+                                        desarrollador</label>
+                                    <select value=1 class="form-select" id="experiencia">
+                                        <option selected value=1 >Junior</option>
+                                        <option value=2>Semi senior</option>
+                                        <option value=2.5>Senior</option>
+                                    </select>
+          
+                                </div>
+                            </div>
+
                         </div>
 
                         <!-- Submit button -->
